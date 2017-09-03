@@ -1,4 +1,3 @@
 _site/
 .sass-cache/
-*.md
-index.md
+.jekyll-metadata
