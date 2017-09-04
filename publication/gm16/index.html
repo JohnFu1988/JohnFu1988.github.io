@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="theme" content="hugo-academic">
   <meta name="generator" content="Hugo 0.20.7" />
-  <meta name="author" content="Yu Zhang">
+  <meta name="author" content="Qiang Fu">
   <meta name="description" content="Ph.D. Candidate">
 
   
@@ -28,17 +28,17 @@
   <link rel="stylesheet" href="/css/hugo-academic.css">
   
 
-  <link rel="alternate" href="https://CheungYu.github.io/index.xml" type="application/rss+xml" title="Yu Zhang&#39;s homepage">
-  <link rel="feed" href="https://CheungYu.github.io/index.xml" type="application/rss+xml" title="Yu Zhang&#39;s homepage">
+  <link rel="alternate" href="https://johnfu1988.github.io/index.xml" type="application/rss+xml" title="Qiang Fu&#39;s homepage">
+  <link rel="feed" href="https://johnfu1988.github.io/index.xml" type="application/rss+xml" title="Qiang Fu&#39;s homepage">
 
   <link rel="icon" type="image/png" href="/img/icon.png">
   <link rel="apple-touch-icon" type="image/png" href="/img/apple-touch-icon.png">
 
-  <link rel="canonical" href="https://CheungYu.github.io/publication/mwc_icme15/">
+  <link rel="canonical" href="https://johnfu1988.github.io/publication/ele_cvpr17/">
 
   
 
-  <title>Cuboids Detection in RGB-D Images via Maximum Weighted Clique | Yu Zhang&#39;s homepage</title>
+  <title>What is and What is not a Salient Object? Learning Salient Object Detector by Ensembling Linear Exemplar Regressors | Qiang Fu&#39;s homepage</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -55,7 +55,7 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="/">Yu Zhang&#39;s homepage</a>
+      <a class="navbar-brand" href="/">Qiang Fu&#39;s homepage</a>
     </div>
 
     
@@ -137,10 +137,10 @@
   
 
   <div class="container pub-title">
-    <h1 itemprop="name">Cuboids Detection in RGB-D Images via Maximum Weighted Clique</h1>
+    <h1 itemprop="name">What is and What is not a Salient Object? Learning Salient Object Detector by Ensembling Linear Exemplar Regressors</h1>
     <span class="pub-authors" itemprop="author">
       
-      Han Zhang, Xiaowu Chen, Yu Zhang, Jia Li, Qing Li, Xiaogang Wang
+      Changqun Xia, Jia Li, Xiaowu Chen, Anlin Zheng, Yu Zhang
       
     </span>
     <span class="pull-right">
@@ -155,7 +155,7 @@
   
 
   <h3>Abstract</h3>
-  <p class="pub-abstract" itemprop="text">Cuboid detection is an essential step for understanding 3D structure of scenes. As most of indoor scene cuboids are actually objects, we propose in this paper an object-based approach to detect 3D cuboids in indoor RGB-D images. The proposed approach is learning-free and can handle general object classes rather than a limited pre-defined category set. In our approach, we first apply an extended version of the CPMC framework to generate a set of segment hypotheses, and fit a set of cuboid candidates. Given the candidate set, we select several cuboids that can provide plausible interpretations of the images by solving a Maximum Weighted Clique (MWC) problem. With this formulation, a set of ranked mid-level representations of the input image is obtained, and are further re-ranked by Maximal Marginal Relevance (MMR) measure to improve their diversity. Experimental results on NYU-V2 dataset shows that our method significantly outperforms the state-of-the-art, and shows impressive results.</p>
+  <p class="pub-abstract" itemprop="text">Finding what is and what is not a salient object can be helpful in developing better features and models in salient object detection (SOD). In this paper, we investigate the images that are selected and discarded in constructing a new SOD dataset and find that many similar candidates, complex shape and low objectness are three main attributes of many non-salient objects. Moreover, objects may have diversified attributes that make them salient. As a result, we propose a novel salient object detector by ensembling linear exemplar regressors. We first select reliable foreground and background seeds using the boundary prior and then adopt locally linear embedding (LLE) to conduct manifoldpreserving foregroundness propagation. In this manner, a foregroundness map can be generated to roughly pop-out salient objects and suppress non-salient ones with many similar candidates. Moreover, we extract the shape, foregroundness and attention descriptors to characterize the extracted object proposals, and a linear exemplar regressor is trained to encode how to detect salient proposals in a specific image. Finally, various linear exemplar regressors are ensembled to form a single detector that adapts to various scenarios. Extensive experimental results on 5 dataset and the new SOD dataset show that our approach outperforms 9 state-of-art methods.</p>
 
   
   <div class="row">
@@ -182,7 +182,7 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-        <div class="col-xs-12 col-sm-9">In IEEE Conference on Multimedia and Expo (ICME) 2015</div>
+        <div class="col-xs-12 col-sm-9">In IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2017</div>
       </div>
     </div>
     <div class="col-sm-1"></div>
@@ -195,7 +195,7 @@
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
         <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-          July, 2015
+          July, 2017
         </div>
       </div>
     </div>
@@ -215,7 +215,7 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="https://CheungYu.github.io/pdf/MWC_ICME15.pdf">
+<a class="btn btn-primary btn-outline" href="https://johnfu1988.github.io/pdf/ELE_CVPR17.pdf">
   PDF
 </a>
 
@@ -244,13 +244,10 @@
   <nav>
   <ul class="pager">
     
-    <li class="previous"><a href="https://CheungYu.github.io/publication/sos_cvpr15/"><span
-      aria-hidden="true">&larr;</span> Semantic Object Segmentation via Detection in Weakly Labeled Video</a></li>
+    <li class="previous"><a href="https://johnfu1988.github.io/publication/lst_bmvc16/"><span
+      aria-hidden="true">&larr;</span> Local Shape Transfer for Image Co-segmentation</a></li>
     
 
-    
-    <li class="next"><a href="https://CheungYu.github.io/publication/eventsketch_scis16/">High-level representation sketch for video event retrieval <span
-      aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
 </nav>
@@ -261,7 +258,7 @@
   <div class="container">
     <p class="powered-by">
 
-      &copy; 2017 Yu Zhang &middot; 
+      &copy; 2017 Qiang Fu &middot; 
 
       Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
       theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
