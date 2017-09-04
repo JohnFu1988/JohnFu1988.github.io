@@ -38,7 +38,7 @@
 
   
 
-  <title>What is and What is not a Salient Object? Learning Salient Object Detector by Ensembling Linear Exemplar Regressors | Qiang Fu&#39;s homepage</title>
+  <title>Adaptive Synthesis of Indoor Scenes via Activity-Associated Object Relation Graphs | Qiang Fu&#39;s homepage</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -137,10 +137,10 @@
   
 
   <div class="container pub-title">
-    <h1 itemprop="name">What is and What is not a Salient Object? Learning Salient Object Detector by Ensembling Linear Exemplar Regressors</h1>
+    <h1 itemprop="name">Adaptive Synthesis of Indoor Scenes via Activity-Associated Object Relation Graphs</h1>
     <span class="pub-authors" itemprop="author">
       
-      Changqun Xia, Jia Li, Xiaowu Chen, Anlin Zheng, Yu Zhang
+      Qiang Fu, Xiaowu Chen, Xiaotian Wang, Sijia Wen, Bin Zhou and Hongbo Fu
       
     </span>
     <span class="pull-right">
@@ -155,7 +155,7 @@
   
 
   <h3>Abstract</h3>
-  <p class="pub-abstract" itemprop="text">Finding what is and what is not a salient object can be helpful in developing better features and models in salient object detection (SOD). In this paper, we investigate the images that are selected and discarded in constructing a new SOD dataset and find that many similar candidates, complex shape and low objectness are three main attributes of many non-salient objects. Moreover, objects may have diversified attributes that make them salient. As a result, we propose a novel salient object detector by ensembling linear exemplar regressors. We first select reliable foreground and background seeds using the boundary prior and then adopt locally linear embedding (LLE) to conduct manifoldpreserving foregroundness propagation. In this manner, a foregroundness map can be generated to roughly pop-out salient objects and suppress non-salient ones with many similar candidates. Moreover, we extract the shape, foregroundness and attention descriptors to characterize the extracted object proposals, and a linear exemplar regressor is trained to encode how to detect salient proposals in a specific image. Finally, various linear exemplar regressors are ensembled to form a single detector that adapts to various scenarios. Extensive experimental results on 5 dataset and the new SOD dataset show that our approach outperforms 9 state-of-art methods.</p>
+  <p class="pub-abstract" itemprop="text">We present a system for adaptive synthesis of indoor scenes given an empty room and only a few object categories. Automatically suggesting indoor objects and proper layouts to convert an empty room to a 3D scene is challenging, since it requires interior design knowledge to balance the factors like space, path distance, illumination and object relations, in order to insure the functional plausibility of the synthesized scenes. We exploit a database of 2D floor plans to extract object relations and provide layout examples for scene synthesis. With the labeled human positions and directions in each plan, we detect the activity relations and compute the coexistence frequency of object pairs to construct activity-aware object relation graphs. Given the input room and user-specified object categories, our system first leverages the object relation graphs and the database floor plans to suggest more potential object categories beyond the specified ones to make resulting scenes functionally complete, and then uses the similar plan references to create the layout of synthesized scenes. We show various synthesis results to demonstrate the practicability of our system, and validate its usability via a user study. We also compare our system with the state-of-the-art furniture layout and activity-centric scene representation methods, in terms of functional plausibility and user friendliness.</p>
 
   
   <div class="row">
@@ -163,13 +163,7 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Type</div>
-        <div class="col-xs-12 col-sm-9">
-          
-          <a href="/publication/#1">
-            Conference proceedings
-          </a>
-          
-        </div>
+
       </div>
     </div>
     <div class="col-sm-1"></div>
@@ -182,7 +176,7 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-        <div class="col-xs-12 col-sm-9">In IEEE Conference on Computer Vision and Pattern Recognition (CVPR) 2017</div>
+        <div class="col-xs-12 col-sm-9">In ACM Transactions on Graphics (Special Issue of SIGGRAPH Asia) 2017</div>
       </div>
     </div>
     <div class="col-sm-1"></div>
