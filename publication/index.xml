@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Publications on Yu Zhang&#39;s homepage</title>
+    <link>https://CheungYu.github.io/publication/</link>
+    <description>Recent content in Publications on Yu Zhang&#39;s homepage</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2017 Yu Zhang</copyright>
+    <lastBuildDate>Fri, 21 Jul 2017 00:00:00 +0000</lastBuildDate>
+    <atom:link href="/publication/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>What is and What is not a Salient Object? Learning Salient Object Detector by Ensembling Linear Exemplar Regressors</title>
+      <link>https://CheungYu.github.io/publication/ele_cvpr17/</link>
+      <pubDate>Fri, 21 Jul 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://CheungYu.github.io/publication/ele_cvpr17/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Local Shape Transfer for Image Co-segmentation</title>
+      <link>https://CheungYu.github.io/publication/lst_bmvc16/</link>
+      <pubDate>Tue, 20 Sep 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://CheungYu.github.io/publication/lst_bmvc16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>High-level representation sketch for video event retrieval</title>
+      <link>https://CheungYu.github.io/publication/eventsketch_scis16/</link>
+      <pubDate>Wed, 15 Jun 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://CheungYu.github.io/publication/eventsketch_scis16/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Cuboids Detection in RGB-D Images via Maximum Weighted Clique</title>
+      <link>https://CheungYu.github.io/publication/mwc_icme15/</link>
+      <pubDate>Thu, 02 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://CheungYu.github.io/publication/mwc_icme15/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Semantic Object Segmentation via Detection in Weakly Labeled Video</title>
+      <link>https://CheungYu.github.io/publication/sos_cvpr15/</link>
+      <pubDate>Tue, 09 Jun 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://CheungYu.github.io/publication/sos_cvpr15/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Geodesic Propagation for Semantic Labeling</title>
+      <link>https://CheungYu.github.io/publication/gp_tip14/</link>
+      <pubDate>Mon, 15 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://CheungYu.github.io/publication/gp_tip14/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

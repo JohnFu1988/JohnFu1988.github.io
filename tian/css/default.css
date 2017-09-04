@@ -1,0 +1,161 @@
+body {
+	margin: 0;
+	padding: 0;
+	background: #F8F8F8;
+	font-size: 12px;
+	overflow: auto;
+}
+
+#mainDiv{
+	width: 100%;
+	height: 100%;
+}
+
+#loveHeart {
+	float: left;
+	width:670px;
+	height:800px;
+}
+
+#garden {
+	width: 100%;
+	height: 100%;
+}
+
+#elapseClock {
+	text-align: right;
+	font-size: 18px;
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+#words {
+	font-family: "Arial";
+	width: 500px;
+	font-size: 24px;
+	color:#666;
+}
+
+#messages{
+	padding:5px;
+	margin-top:0px;
+	margin-left:20px;
+	padding:0;
+	width:650px;
+	display:none
+}
+
+#first_img{
+	margin-top: 50px;
+	display:none;
+}
+
+#img_i_miss_you{
+	margin-top:5px;
+	display:none;
+	margin-top:5px;
+}
+
+#img_i_see_you{
+	margin-top:5px;
+	display:none;
+	margin-top:5px;
+}
+
+#img_i_am_with_you{
+	margin-top:5px;
+	display:none;
+	margin-top:5px;
+}
+
+#code_block1{
+	visibility:hidden;
+}
+
+#code_block2{
+	visibility:hidden;
+}
+
+#code_block3{
+	visibility:hidden;
+}
+
+#code_block4{
+	visibility:hidden;
+}
+
+#elapseClock .digit{
+	font-family: "digit";
+	font-size: 36px;
+}
+
+#loveu{
+	padding: 5px;
+	font-size: 22px;
+	margin-top: 0px;
+	margin-right: 0px;
+	width:600px;
+	text-align: right;
+	display:none;	
+}
+
+#loveu .signature{
+	margin-top: 0px;
+	font-size: 20px;
+	font-style: italic;
+}
+
+#clickSound{
+	display:none;
+}
+
+#code {
+	float: left;
+	width: 720px;
+	height: 800px;
+	color: #333;
+	font-family: "Consolas", "Monaco", "Bitstream Vera Sans Mono", "Courier New", "sans-serif";
+	font-size: 14px;
+	visibility: hidden;
+}
+
+#code .string{
+	color: #2a36ff;
+}
+
+#code .keyword{
+	color: #7f0055;
+	font-weight:bold;
+}
+
+#code .placeholder{
+	margin-left:15px;
+}
+
+#code .space{
+	margin-left:7px;
+}
+
+#code .comments{
+	color: #3f7f5f;
+}
+
+#copyright{
+	margin-top: 0px;
+	text-align: center;
+	width:100%;
+	color:#666;
+}
+
+#errorMsg{
+	width: 100%;
+	text-align: center;
+	font-size: 24px;
+	position: absolute;
+	top: 0;
+	left:0px;
+}
+
+#copyright a{
+	color:#666;
+}
