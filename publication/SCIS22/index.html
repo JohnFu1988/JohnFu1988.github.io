@@ -38,7 +38,7 @@
 
   
 
-  <title>Indoor Layout Programming via Virtual Navigation Detectors | Qiang Fu&#39;s homepage</title>
+  <title>Contour-based 3D Modeling through Joint Embedding of Shapes and Contours</title>
 
 </head>
 <body id="top" data-spy="scroll" data-target="#navbar-main" data-offset="71">
@@ -68,7 +68,7 @@
         
 
         <li class="nav-item">
-          <a href="../../index.html">
+          <a href="/#about">
             
             <span>Home</span>
           </a>
@@ -137,10 +137,10 @@
   
 
   <div class="container pub-title">
-    <h1 itemprop="name">Indoor Layout Programming via Virtual Navigation Detectors</h1>
+    <h1 itemprop="name">Contour-based 3D Modeling through Joint Embedding of Shapes and Contours</h1>
     <span class="pub-authors" itemprop="author">
       
-      Qiang FU, Hongbo FU, Zhigang DENG, Xueming LI
+      Aobo Jin, Qiang Fu, Zhigang Deng
       
     </span>
     <span class="pull-right">
@@ -155,7 +155,7 @@
   
 
   <h3>Abstract</h3>
-  <p class="pub-abstract" itemprop="text">As one of the fundamental tasks in indoor scene modeling, indoor layout programming has been extensively studied in the past decades. Some existing approaches adopt a heuristic exploration that generates the arrangement of indoor objects from an initial state (e.g., a messy indoor scene or manual arrangement by users), following the pre-specified constraints such as object-object or object-human relations of indoor scenes. However, these studies always focused on the relative object arrangement, while ignoring the impact of the room environment. That is mainly because man-made guidelines for layout programming can only cover limited factors such as object alignment, while actual situations could involve more sophisticated factors.</p>
+  <p class="pub-abstract" itemprop="text">In this paper, we propose a novel space that jointly embeds both 2D occluding contours and 3D shapes via a variational autoencoder (VAE) and a volumetric autoencoder. Given a dataset of 3D shapes, we extract their occluding contours via projections from random views and use the occluding contours to train the VAE. Then, the obtained continuous embedding space, where each point is a latent vector that represents an occluding contour, can be used to measure the similarity between occluding contours. After that, the volumetric autoencoder is trained to first map 3D shapes onto the embedding space through a supervised learning process and then decode the merged latent vectors of three occluding contours (from three different views) of a 3D shape to its 3D voxel representation. We conduct various experiments and comparisons to demonstrate the usefulness and effectiveness of our method for sketch-based 3D modeling and shape manipulation applications.</p>
 
   
   <div class="row">
@@ -174,7 +174,7 @@
     <div class="col-sm-10">
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Publication</div>
-        <div class="col-xs-12 col-sm-9">Science China Information Sciences (2022)</div>
+        <div class="col-xs-12 col-sm-9">I3D: Symposium on Interactive 3D Graphics and Games (2020)</div>
       </div>
     </div>
     <div class="col-sm-1"></div>
@@ -187,7 +187,7 @@
       <div class="row">
         <div class="col-xs-12 col-sm-3 pub-row-heading">Date</div>
         <div class="col-xs-12 col-sm-9" itemprop="datePublished">
-          May,2021
+          May,2020
         </div>
       </div>
     </div>
@@ -207,7 +207,7 @@
 
 
 
-<a class="btn btn-primary btn-outline" href="../../pdf/SCIS22.pdf">
+<a class="btn btn-primary btn-outline" href="../../pdf/I3D20.pdf">
   PDF
 </a>
 
@@ -235,12 +235,12 @@
 <div class="container">
   <nav>
   <ul class="pager">
-
     
-    <li class="previous"><a href="../../publication/gm23/index.html"><span
-      aria-hidden="true">&larr;</span>Component-aware Generative Autoencoder for Structure Hybrid and Shape Completion</a></li>
     
-    <li class="next"><a href="../../publication/TVCG20/index.html">Motion Planning for Convertible Indoor Scene Layout Design<span
+    <li class="previous"><a href="../../publication/CGF20/index.html"><span
+      aria-hidden="true">&larr;</span>Interactive Design and Preview of Colored Snapshots of Indoor Scenes</a></li>
+    
+    <li class="next"><a href="../../publication/gm20/index.html">Human-centric Metrics for Indoor Scene Assessment and Synthesis<span
       aria-hidden="true">&rarr;</span></a></li>
     
   </ul>
@@ -252,7 +252,7 @@
   <div class="container">
     <p class="powered-by">
 
-      &copy; 2022 Qiang Fu &middot; 
+      &copy; 2020 Qiang Fu &middot; 
 
       Powered by the <a href="https://github.com/gcushen/hugo-academic" target="_blank">Academic
       theme</a> for <a href="http://gohugo.io" target="_blank">Hugo</a>.
